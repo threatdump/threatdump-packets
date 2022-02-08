@@ -1,6 +1,0 @@
-GET http://fuwu.sogou.com/404/index.html HTTP/1.1
-Host: fuwu.sogou.com
-User-Agent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3
-Connection: close
-Accept-Encoding: gzip
-

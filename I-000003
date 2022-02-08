@@ -1,6 +1,0 @@
-GET http://httpbin.org/ip HTTP/1.1
-Host: httpbin.org
-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.134 Safari/534.16
-Connection: close
-Accept-Encoding: gzip
-
