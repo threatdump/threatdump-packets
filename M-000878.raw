@@ -1,0 +1,62 @@
+[telnetscanner] FD1 connected. Trying root:ivdev
+[telnetscanner] FD2 Attempting to brute found IP 222.180.178.169
+[telnetscanner] FD4 Attempting to brute found IP 166.104.143.55
+[telnetscanner] FD2 connected. Trying root:password
+[telnetscanner] FD7 Attempting to brute found IP 106.46.215.113
+[telnetscanner] FD1 connection gracefully closed
+[telnetscanner] FD1 lost connection
+[telnetscanner] FD1 retrying with different auth combo!
+[telnetscanner] FD7 connected. Trying root:klv123
+[telnetscanner] FD4 timed out (state = 1)
+[telnetscanner] FD1 connected. Trying admin:1111
+[telnetscanner] FD1 connection gracefully closed
+[telnetscanner] FD1 lost connection
+[telnetscanner] FD1 retrying with different auth combo!
+[telnetscanner] FD1 timed out (state = 1)
+[telnetscanner] FD7 connection gracefully closed
+[telnetscanner] FD7 lost connection
+[telnetscanner] FD1 retrying with different auth combo!
+[telnetscanner] FD1 error while connecting = 111
+[telnetscanner] FD1 Attempting to brute found IP 63.35.98.93
+[telnetscanner] FD[telnetscanner] FD10 timed out (state = 2)
+[telnetscanner] FD9 timed out (state = 4)
+[telnetscanner] FD1 retrying with different auth combo!
+[telnetscanner] FD2 finished telnet negotiation
+[telnetscanner] FD1 timed out (state = 1)
+[telnetscanner] FD1 Attempting to brute found IP 63.35.98.93
+[telnetscanner] FD1 connected. Trying root:zhongxing
+[telnetscanner] FD4 Attempting to brute found IP 118.166.216.211
+[telnetscanner] FD2 timed out (state = 3)
+[telnetscanner] FD2 retrying with different auth combo!
+[telnetscanner] FD4 connected. Trying admin:conexant
+[telnetscanner] FD7 Attempting to brute found IP 155.98.241.146
+[telnetscanner] FD2 connected. Trying admin:1111
+[telnetscanner] FD2 finished telnet negotiation
+[telnetscanner] FD4 finished telnet negotiation
+[telnetscanner] FD7 connected. Trying admin:pass
+[vega/table] tried to double-lock value
+[vega/table] tried to double-lock value
+[telnetscanner] FD4 received username prompt
+[telnetscanner] FD9 Attempting to brute found IP 183.108.199.53
+[telnetscanner] FD2 timed out (state = 1)
+[telnetscanner] FD9 timed out (state = 2)
+[telnetscanner] FD1 lost connection
+[telnetscanner] FD1 retrying with different auth combo!
+[telnetscanner] FD1 connected. Trying guest:guest
+[telnetscanner] FD2 Attempting to brute found IP 111.231.88.139
+[telnetscanner] FD1 lost connection
+[telnetscanner] FD1 retrying with different auth combo!
+[telnetscanner] FD2 connected. Trying root:123456
+[telnetscanner] FD4 timed out (state = 2)
+[telnetscanner] FD2 connection gracefully closed
+[telnetscanner] FD2 lost connection
+[telnetscanner] FD2 retrying with different auth combo!
+[telnetscanner] FD1 timed out (state = 1)
+[telnetscanner] FD2 timed out (state = 1)
+[telnetscanner] FD1 Attempting to brute found IP 183.108.199.53
+[telnetscanner] FD1 timed out (state = 1)
+[telnetscanner] FD1 Attempting to brute found IP 201.96.38.29
+[telnetscanner] FD1 timed out (state = 1)
+[telnetscanner] FD1 Attempting to brute found IP 63.35.98.93
+[telnetscanner] FD1 connected. Trying bin:
+[telnetscanner] FD2 Attempting to brute found IP 
